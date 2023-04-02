@@ -10,26 +10,26 @@ export default function Profile() {
       <Topbar />
       <div className="profile">
         <Sidebar />
-        <div className="profileRight">
-          <div className="profileRightTop">
-            <div className="profileCover">
+        <div className="profile__Right">
+          <div className="profile__Right-Top">
+            <div className="profile__Cover">
               <img
-                className="profileCoverImg"
+                className="profile__Cover-Img"
                 src="assets/post/3.jpeg"
                 alt=""
               />
               <img
-                className="profileUserImg"
+                className="profile__User-Img"
                 src="assets/person/7.jpeg"
                 alt=""
               />
             </div>
-            <div className="profileInfo">
-                <h4 className="profileInfoName">Safak Kocaoglu</h4>
-                <span className="profileInfoDesc">Hello my friends!</span>
+            <div className="profile__Info">
+                <h4 className="profile__Info-Name">Safak Kocaoglu</h4>
+                <span className="profile__Info-Desc">Hello my friends!</span>
             </div>
           </div>
-          <div className="profileRightBottom">
+          <div className="profile__Right-Bottom">
             <Feed />
             <Rightbar profile/>
           </div>
